@@ -1,0 +1,67 @@
+
+@font-face {
+    font-family: 'FONT' ;
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+.fighters{
+    position: relative;
+}
+.first{
+    position: absolute;
+    top: 350px;
+    animation-delay: 1.5s;
+    animation: fighters 3s infinite;
+}
+.second{
+    position: absolute;
+    right: 0;
+    top: 350px;
+}
+
+.third{
+    position: absolute;
+}
+
+.fighters img{
+    width: 500px;
+    height: 500px;
+}
+
+@keyframes fighters {
+    40%{
+        top: 100px;
+    }
+    100%{
+        top: 350px;
+    }
+    from{
+        top: 350px;
+        left: 0;
+    }
+    to{
+        top: 350px;
+        left: 60%;
+    }
+}
+
+.round{
+    position: absolute;
+    font-size: 100px;
+    color: red;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-name: round;
+    animation-duration: 3s;
+    font-family: 'FONT' ;
+}
+
+@keyframes round {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
