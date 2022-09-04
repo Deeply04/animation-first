@@ -2,7 +2,9 @@ let Group ={
     name: 'Davit',
     lastName: 'Bakhutashvili',
     age:22,
-    proggramingLanguages: 'HTML',
+    city: 'Tbilisi',
+    drivingLicense: ['B', 'B1', 'A1'],
+    isMerried: false,
 } 
 
 console.log (Group)

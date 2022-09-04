@@ -18,6 +18,16 @@
     top: 350px;
 }
 
+.background-street{
+    width: 100%;
+    height: 100%;
+}
+.background-street img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
 .third{
     position: absolute;
 }
@@ -25,6 +35,7 @@
 .fighters img{
     width: 500px;
     height: 500px;
+    z-index: 2;
 }
 
 @keyframes fighters {
